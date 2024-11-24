@@ -4,9 +4,7 @@
 This project explores the effects of Ridge (L2) regularization in a multiclass logistic regression model. The analysis investigates how regularization impacts coefficients, cross-validation performance, and predictions. This project applies these techniques to classify ancestry groups based on human genetic data.
 
 ## Context
-The dataset consists of **𝑁 = 183 training observations (individuals)** sampled from populations across the world. Each individual's genetic data has been projected along the **𝑝 = 10 top principal components**, which together explain **24.16% of the variance**. These principal components are used as features instead of raw genetic data to significantly reduce computational complexity while retaining meaningful information for classification.
-
-The goal is to fit a model that predicts (classifies) an individual's ancestry from these 10 principal components.
+The dataset includes 183 individuals sampled globally, with genetic data projected onto the 10 top principal components, which together explain 24.16% of the variance. These components serve as features, replacing raw genetic data to reduce computational complexity while retaining essential genetic information. The goal is to develop a Ridge (L2) regularized logistic regression model that classifies an individual’s ancestry into one of five continental groups: African, European, East Asian, Oceanian, or Native American, using these principal components.
 
 ## Purpose
 The notebook demonstrates:
